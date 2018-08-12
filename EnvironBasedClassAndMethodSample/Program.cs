@@ -25,9 +25,5 @@ namespace EnvironmentBasedClassSample
             return WebHost.CreateDefaultBuilder(args)
                 .UseStartup(assemblyName);
         }
-
-        //public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-        //    WebHost.CreateDefaultBuilder(args)
-        //        .UseStartup<Startup>();
     }
 }

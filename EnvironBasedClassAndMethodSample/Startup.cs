@@ -32,6 +32,9 @@ namespace EnvironmentBasedClassSample
         {
             Console.WriteLine($"*** {this.ToString()}: {nameof(ConfigureServices)} ***");
 
+            var appsettingsValue = Configuration.GetValue<string>("Environment");
+            Console.WriteLine($"*** appsettings value: {appsettingsValue}");
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -92,6 +95,9 @@ namespace EnvironmentBasedClassSample
         public void ConfigureServices(IServiceCollection services)
         {
             Console.WriteLine($"*** {this.ToString()}: {nameof(ConfigureServices)} ***");
+
+            var appsettingsValue = Configuration.GetValue<string>("Environment");
+            Console.WriteLine($"*** appsettings value: {appsettingsValue}");
 
 
             services.Configure<CookiePolicyOptions>(options =>
@@ -154,6 +160,9 @@ namespace EnvironmentBasedClassSample
         public void ConfigureServices(IServiceCollection services)
         {
             Console.WriteLine($"*** {this.ToString()}: {nameof(ConfigureServices)} ***");
+
+            var appsettingsValue = Configuration.GetValue<string>("Environment");
+            Console.WriteLine($"*** appsettings value: {appsettingsValue}");
 
 
             services.Configure<CookiePolicyOptions>(options =>

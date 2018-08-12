@@ -29,7 +29,7 @@ namespace EnvironmentBasedMethodSample
         public void ConfigureDevelopmentServices(IServiceCollection services)
         {
             Console.WriteLine($"*** {nameof(ConfigureDevelopmentServices)} ***");
-
+            
 
             services.Configure<CookiePolicyOptions>(options =>
             {
