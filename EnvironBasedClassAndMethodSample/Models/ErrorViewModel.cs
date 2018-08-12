@@ -1,6 +1,6 @@
 using System;
 
-namespace EnvironBasedClassSample.Models
+namespace EnvironmentBasedClassSample.Models
 {
     public class ErrorViewModel
     {

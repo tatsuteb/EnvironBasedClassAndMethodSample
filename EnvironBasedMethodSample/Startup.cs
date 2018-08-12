@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EnvironBasedMethodSample
+namespace EnvironmentBasedMethodSample
 {
     public class Startup
     {

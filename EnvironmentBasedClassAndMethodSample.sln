@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironBasedClassSample", "EnvironBasedClassAndMethodSample\EnvironBasedClassSample.csproj", "{5672A272-71F9-4F51-A95B-49E7963E323D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentBasedClassSample", "EnvironBasedClassAndMethodSample\EnvironmentBasedClassSample.csproj", "{5672A272-71F9-4F51-A95B-49E7963E323D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironBasedMethodSample", "EnvironBasedMethodSample\EnvironBasedMethodSample.csproj", "{5F691D56-C39A-4035-A48F-81A94E109FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentBasedMethodSample", "EnvironBasedMethodSample\EnvironmentBasedMethodSample.csproj", "{5F691D56-C39A-4035-A48F-81A94E109FED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

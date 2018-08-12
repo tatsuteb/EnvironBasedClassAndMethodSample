@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using EnvironBasedClassSample.Models;
+using EnvironmentBasedClassSample.Models;
 
-namespace EnvironBasedClassSample.Controllers
+namespace EnvironmentBasedClassSample.Controllers
 {
     public class HomeController : Controller
     {
